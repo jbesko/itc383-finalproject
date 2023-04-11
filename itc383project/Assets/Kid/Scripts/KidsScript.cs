@@ -38,8 +38,8 @@ public class KidsScript : MonoBehaviour
 
   void Update()
   {
-    CAMERA();
-    DIRECTION_LIGHT();
+    //CAMERA();
+    //DIRECTION_LIGHT();
     GRAVITY();
     STATUS();
 
@@ -123,18 +123,18 @@ public class KidsScript : MonoBehaviour
   //--------------------------------------------------------------------- CAMERA
   // camera moving
   //---------------------------------------------------------------------
-  private void CAMERA ()
-  {
-    _View_Camera.transform.position = this.transform.position + new Vector3(0, 0.5f, 2.0f);
-  }
+  //private void CAMERA ()
+  //{
+    //_View_Camera.transform.position = this.transform.position + new Vector3(0, 0.5f, 2.0f);
+ // }
   //--------------------------------------------------------------------- DIRECTION_LIGHT
   // Direction of light
   //---------------------------------------------------------------------
-  private void DIRECTION_LIGHT ()
-  {
-    Vector3 pos = _Light.position - this.transform.position;
-    _MeshRenderer.material.SetVector("_LightDir", pos);
-  }
+  //private void DIRECTION_LIGHT ()
+  //{
+    //Vector3 pos = _Light.position - this.transform.position;
+    //_MeshRenderer.material.SetVector("_LightDir", pos);
+  //}
   //--------------------------------------------------------------------- GRAVITY
   // gravity for fall of slime
   //---------------------------------------------------------------------
@@ -188,7 +188,7 @@ public class KidsScript : MonoBehaviour
     _Animator.SetFloat(SpeedParameter, speed);
 
     //------------------------------------------------------------ Forward
-    if (Input.GetKey(KeyCode.UpArrow))
+    if (Input.GetKey(KeyCode.W))
     {
       // velocity
       if(_Animator.GetCurrentAnimatorStateInfo(0).fullPathHash == MoveState)
@@ -198,7 +198,7 @@ public class KidsScript : MonoBehaviour
         MOVE_RESET();
       }
     }
-    if (Input.GetKeyDown(KeyCode.UpArrow))
+    if (Input.GetKeyDown(KeyCode.W))
     {
       if(_Animator.GetCurrentAnimatorStateInfo(0).tagHash != JumpTag){
         _Animator.CrossFade(MoveState, 0.1f, 0, 0);
@@ -206,25 +206,25 @@ public class KidsScript : MonoBehaviour
     }
 
     //------------------------------------------------------------ character rotation
-    if (Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow)){
+    if (Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A)){
       this.transform.Rotate(Vector3.up, 1.0f);
     }
-    else if (Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow)){
+    else if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D)){
       this.transform.Rotate(Vector3.up, -1.0f);
     }
-    if (!Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.DownArrow))
+    if (!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S))
     {
       if(_Animator.GetCurrentAnimatorStateInfo(0).tagHash != JumpTag)
       {
-        if (Input.GetKeyDown(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow)){
+        if (Input.GetKeyDown(KeyCode.D) && !Input.GetKey(KeyCode.A)){
           _Animator.CrossFade(MoveState, 0.1f, 0, 0);
         }
-        else if (Input.GetKeyDown(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow)){
+        else if (Input.GetKeyDown(KeyCode.A) && !Input.GetKey(KeyCode.D)){
           _Animator.CrossFade(MoveState, 0.1f, 0, 0);
         }
       }
       // rotate stop
-      else if (Input.GetKey(KeyCode.RightArrow) && Input.GetKey(KeyCode.LeftArrow))
+      else if (Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.A))
       {
         if(_Animator.GetCurrentAnimatorStateInfo(0).tagHash != JumpTag){
           _Animator.CrossFade(IdleState, 0.1f, 0, 0);
@@ -241,21 +241,21 @@ public class KidsScript : MonoBehaviour
     if(_Animator.GetCurrentAnimatorStateInfo(0).fullPathHash != JumpState
         && !_Animator.IsInTransition(0))
     {
-      if (Input.GetKeyUp(KeyCode.UpArrow))
+      if (Input.GetKeyUp(KeyCode.W))
       {
-        if(!Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
+        if(!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
         {
           _Animator.CrossFade(IdleState, 0.1f, 0, 0);
         }
       }
-      else if (!Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.DownArrow))
+      else if (!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S))
       {
-        if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.LeftArrow))
+        if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A))
         {
-          if(Input.GetKey(KeyCode.LeftArrow)){
+          if(Input.GetKey(KeyCode.A)){
             _Animator.CrossFade(MoveState, 0.1f, 0, 0);
           }
-          else if(Input.GetKey(KeyCode.RightArrow)){
+          else if(Input.GetKey(KeyCode.D)){
             _Animator.CrossFade(MoveState, 0.1f, 0, 0);
           }
           else{
@@ -285,7 +285,7 @@ public class KidsScript : MonoBehaviour
   {
     if(CheckGrounded())
     {
-      if(Input.GetKeyDown(KeyCode.S)
+      if(Input.GetKeyDown(KeyCode.Space)
           && _Animator.GetCurrentAnimatorStateInfo(0).tagHash != JumpTag
           && !_Animator.IsInTransition(0))
       {
@@ -298,8 +298,8 @@ public class KidsScript : MonoBehaviour
           && !_Animator.IsInTransition(0)
           && JumpPoseParameter < 0)
       {
-        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow)
-            || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S)
+            || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
         {
           _Animator.CrossFade(MoveState, 0.3f, 0, 0);
         }
@@ -343,7 +343,7 @@ public class KidsScript : MonoBehaviour
   //---------------------------------------------------------------------
   private void FAINT ()
   {
-    if (Input.GetKeyDown(KeyCode.W))
+    if (Input.GetKeyDown(KeyCode.Q))
     {
       _Animator.CrossFade(DownState, 0.1f, 0, 0);
     }
