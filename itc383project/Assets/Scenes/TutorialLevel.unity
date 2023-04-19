@@ -460,5 +460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camera Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 1767387140750192329, guid: df676f3a9839b3741a43b944cd5b50e8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df676f3a9839b3741a43b944cd5b50e8, type: 3}
