@@ -171,7 +171,7 @@ public class KidsScript : MonoBehaviour
     if(Input.GetKey(KeyCode.Z))
     {
       if(speed <= 2){
-        speed += 0.01f;
+        speed += 0.1f;
       }
       else if(speed >= 2){
         speed = 2;
