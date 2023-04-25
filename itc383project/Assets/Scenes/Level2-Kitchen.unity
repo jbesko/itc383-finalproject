@@ -2441,6 +2441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Level3-Basement
+  textBox: {fileID: 55378817}
 --- !u!1 &2109344746
 GameObject:
   m_ObjectHideFlags: 0

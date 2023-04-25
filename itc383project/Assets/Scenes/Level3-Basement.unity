@@ -523,6 +523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Boss Level
+  textBox: {fileID: 73535124}
 --- !u!1001 &383283000
 PrefabInstance:
   m_ObjectHideFlags: 0

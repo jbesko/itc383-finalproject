@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 125
+  controlID: 28
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 60
+  controlID: 29
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 61
+  controlID: 30
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 307
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -473,23 +473,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 029cffff829dffff9cabffff0cacffff4eb0ffffa6b3ffff00b6ffff90bdffffeabfffff06f0ffff60f2ffff2af6ffff88f8ffff34fbffffeae90000
+      m_SelectedIDs: eec30000
+      m_LastClickedID: 50158
+      m_ExpandedIDs: f4d4ffffe4defffface3ffff2ae5ffff00eaffff70eaffffbef1ffff18f4ffff34fbffff0ebb00006cbc000046be0000b0c30000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: key_gold
-        m_OriginalName: key_gold
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 57638
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -725,9 +725,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.6704183, y: 5.7803593, z: 28.296276}
+    m_Target: {x: 29.180176, y: 2.8135133, z: 11.271581}
     speed: 2
-    m_Value: {x: 5.6704183, y: 5.7803593, z: 28.296276}
+    m_Value: {x: 29.180174, y: 2.8135128, z: 11.271581}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -774,13 +774,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.32291454, y: 0.0062424373, z: -0.0021325208, w: -0.94642156}
+    m_Target: {x: -0.50029445, y: 0.08595077, z: -0.049995873, w: -0.86014646}
     speed: 2
-    m_Value: {x: -0.32148957, y: 0.0062455325, z: -0.0021231214, w: -0.94689023}
+    m_Value: {x: -0.49906954, y: 0.08473281, z: -0.049117494, w: -0.86100954}
   m_Size:
-    m_Target: 19.419874
+    m_Target: 2.7994182
     speed: 2
-    m_Value: 18.583612
+    m_Value: 2.7994187
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -942,22 +942,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\besko1jh\Documents\GitHub\itc383-finalproject\itc383project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 6a600000
-    m_LastClickedID: 24682
-    m_ExpandedIDs: 000000006a60000000ca9a3bffffff7f
+    m_SelectedIDs: e2650000
+    m_LastClickedID: 26082
+    m_ExpandedIDs: 000000007665000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -985,7 +985,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006a600000
+    m_ExpandedIDs: 0000000076650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

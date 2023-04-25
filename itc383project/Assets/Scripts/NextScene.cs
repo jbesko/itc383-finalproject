@@ -7,11 +7,18 @@ using UnityEngine.SceneManagement;
 public class NextScene : MonoBehaviour
 {
     public string sceneName;
+    public GameObject textBox;
 
     void OnCollisionEnter () 
     {
-        Debug.Log("NextScene");
-        SceneManager.LoadScene(sceneName);
+        string text = textBox.GetComponent<Text>().text;
+        if (text == "*")  {
+            Debug.Log("NextScene");
+            SceneManager.LoadScene(sceneName);
+        } else {
+
+        }
+        
     }
 
 }
