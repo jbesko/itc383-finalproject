@@ -168,7 +168,7 @@ public class KidsScript : MonoBehaviour
   {
     float speed = _Animator.GetFloat(SpeedParameter);
     //------------------------------------------------------------ Speed
-    if(Input.GetKey(KeyCode.Z))
+    if(Input.GetKey(KeyCode.LeftShift))
     {
       if(speed <= 2){
         speed += 0.1f;
