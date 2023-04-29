@@ -610,19 +610,27 @@ MonoBehaviour:
     sentences:
     - Hey, buddy...
     - Rise and shine...
-    - WAKE UP! BILLIE!
-    - 'Your finally awake! I''ve been trying to shake you awake for the last 20 mins
-      or so. I have some bad news for you Billie. '
-    - 'Firstly, my name is Jimbo and Im here to guide you through your journey to
-      defeating your grandma.
+    - WAKE UP BILLIY!
+    - Your finally awake! I've been trying to shake you awake for the last 20 mins
+      or so. I have some bad news and some good news for you Billy.
+    - 'Firstly, my name is Jimbo and I''m here to guide you through your journey
+      to defeating your grandma.
 
 '
-    - 'Why your grandma you ask... '
-    - 'Well you see thats the bad news Billie. Your grandma put poison in that oatmeal
-      raisin cookie you gobled up. '
+    - 'Why your grandma you ask... Well you see thats the bad news Billy. Your grandma
+      put poison in that oatmeal raisin cookie you gobled up. '
     - 'So, if you see some werid shit... Its your grandma''s secret "love" she mixed
-      into those cookies. '
-    - But dont worry Billie, I am real...
+      into those cookies. The good news is that you have me to help you along the
+      way! '
+    - '*Each level consists of an "Open Tips Menu" tab in the bottom right corner
+      of the screen. Jimbo will pop up with some helpful tips pertaining to the level*'
+    - "Here'e my first tip for you Billy:\nW Key - Move Up\t\tD Key - Move Right
+      \nA Key - Move Left \tHold Shift - Run"
+    - 'Oh yeah! Looks like grandma locked every door on you. In order to escape each
+      room, you will need to find the key. '
+    - "I'm fucking exhausted from all this rambling. I\u2019m going to take a snooze
+      in my can. Feel free to give me a holler when you need some help. Good luck
+      Billy!"
 --- !u!114 &496529145
 MonoBehaviour:
   m_ObjectHideFlags: 0
