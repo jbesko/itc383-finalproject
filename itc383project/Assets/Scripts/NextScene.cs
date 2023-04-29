@@ -7,11 +7,13 @@ using UnityEngine.SceneManagement;
 public class NextScene : MonoBehaviour
 {
     public string sceneName;
-    public GameObject KeySlot;
+    public GameObject textBox;
 
     void OnCollisionEnter () 
     {
-        if (KeySlot.activeInHierarchy == true)  {
+        string text = textBox.GetComponent<Text>().text;
+        if (text == "*")  {
+            Debug.Log("NextScene");
             SceneManager.LoadScene(sceneName);
         } else {
 
