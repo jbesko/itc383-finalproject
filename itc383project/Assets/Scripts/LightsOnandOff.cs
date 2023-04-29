@@ -6,11 +6,13 @@ using UnityEngine.XR;
 public class LightsOnandOff : MonoBehaviour
 {
     public Light light;
+    public GameObject key;
 
     // Start is called before the first frame update
     void Start()
     {
         light.intensity=0;
+        key.SetActive(false);
     }
 
     // Update is called once per frame
@@ -19,6 +21,7 @@ public class LightsOnandOff : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.F)){
 
             light.intensity=5;
+            key.SetActive(true);
         }
     }
 }

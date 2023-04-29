@@ -1,22 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class DeleteGameObject : MonoBehaviour
+public class Level3KeywithLight : MonoBehaviour
 {
-    Renderer test;
     public GameObject toolSlot;
+    public Light light;
 
-    void Start () {
+    // Start is called before the first frame update
+    void Start()
+    {
         toolSlot.SetActive(false);
     }
-    
 
     void OnCollisionEnter()
     {
-        test = GetComponent<MeshRenderer>();
-        test.enabled = false;
+        if(light.intensity == 5){
         toolSlot.SetActive(true);
+        Destroy(gameObject);
+        }
     }
 }
