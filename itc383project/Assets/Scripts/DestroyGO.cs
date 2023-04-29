@@ -5,11 +5,11 @@ using UnityEngine;
 public class DestroyGO : MonoBehaviour
 {
     Renderer test;
-    public GameObject obj;
+    public GameObject bat;
     
     void Start() 
     {
-        test = obj.GetComponent<MeshRenderer>();
+        test = bat.GetComponent<MeshRenderer>();
     }
     
 

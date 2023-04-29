@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjInvisable : MonoBehaviour
+public class BatInvisable : MonoBehaviour
 {
     Renderer test1;
     Renderer test2;
-    public GameObject groundObj;
+    public GameObject groundBat;
 
     void Start()
     {
         test1 = GetComponent<MeshRenderer>();
         test1.enabled = false;
-        test2 = groundObj.GetComponent<MeshRenderer>();
+        test2 = groundBat.GetComponent<MeshRenderer>();
     }
 
     void Update()
