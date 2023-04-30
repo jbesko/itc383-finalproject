@@ -5,14 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Congrats : MonoBehaviour {
 
-    public void PlayGame ()
+    public void MainMenuScene ()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 
-    public void QuitGame ()
-    {
-        Debug.Log("Quit");
-        Application.Quit();
-    }
 }

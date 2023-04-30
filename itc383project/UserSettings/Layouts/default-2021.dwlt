@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 117
+  controlID: 104
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 118
+  controlID: 42
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 119
+  controlID: 43
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -311,7 +311,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -60670
+  m_LastSelectedObjectID: 54244
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -496,22 +496,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\bark1ga\Documents\GitHub\itc383-finalproject\itc383project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: c6650000
-    m_LastClickedID: 26054
-    m_ExpandedIDs: 00000000c6650000e0650000e2650000e8650000d48f000074a3000034a50000f0d6000000ca9a3bffffff7f
+    m_SelectedIDs: 5e5f0000
+    m_LastClickedID: 24414
+    m_ExpandedIDs: 000000002c5f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -539,7 +539,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c6650000
+    m_ExpandedIDs: 000000002c5f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -671,7 +671,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: ea15ffff2616ffffb01dffffda1dffffde1dffff001effff041effff2c1effff2620ffff3020ffff3a20ffff3c20ffff583cffff343fffff383fffff3c3fffff403fffffc83fffffcc3fffffd03fffff0440ffff0840ffffa640ffffd440fffff446ffff924cffffb850ffffe056fffffe5affff8874ffff8c74ffffae74ffffb274ffff4476ffff429affff309fffff34dfffff46dfffff60dfffff64dfffffb2dfffffb6dfffffd8dfffffdcdfffff00e0ffff68e2ffffc4e9ffffd6faffff1ece000052ce000082ce0000ac16010014170100bc1f0100c21f0100d24701002648010044480100
+      m_ExpandedIDs: 9ea9ffffa4a9ffff1cabffff32acffff9eadffffe0aeffff38b0ffff62b1ffff90beffff6ec3ffff3ac9ffffc4d9ffffd0d9ffff8cdaffff90daffff40ddffffd6ddffffdaddfffffcddffff00deffff26deffff30deffff3adeffff46deffff4edfffff90dfffff44e5ffff34fbffff36c7000092c700000ed4000066de000070de0000e2de0000e6df0000f0df00002ee000005ae00000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -921,9 +921,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 8.202297, y: -22.24422, z: 7.522899}
+    m_Target: {x: 452.9584, y: 251.54553, z: 232.27069}
     speed: 2
-    m_Value: {x: 8.202297, y: -22.24422, z: 7.522899}
+    m_Value: {x: 452.9584, y: 251.54553, z: 232.27069}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -970,13 +970,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.3891479, y: -0.5776096, z: 0.36319217, w: -0.61890346}
+    m_Target: {x: 0.06476598, y: 0.0014920447, z: -0.00010443294, w: 0.9979116}
     speed: 2
-    m_Value: {x: -0.38968858, y: -0.5766752, z: 0.36260462, w: -0.6197633}
+    m_Value: {x: 0.06476519, y: 0.0014920265, z: -0.00010443167, w: 0.9978994}
   m_Size:
-    m_Target: 32.088966
+    m_Target: 479.88013
     speed: 2
-    m_Value: 30.707146
+    m_Value: 479.88013
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1074,18 +1074,18 @@ MonoBehaviour:
       y: 21
       width: 1100
       height: 525
-    m_Scale: {x: 1.0839075, y: 1.0839075}
-    m_Translation: {x: 550, y: 240.47427}
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 550, y: 262.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -507.42337
-      y: -221.85867
-      width: 1014.84674
-      height: 484.35867
+      x: -550
+      y: -262.5
+      width: 1100
+      height: 525
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1100, y: 546}
