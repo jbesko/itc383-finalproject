@@ -170,11 +170,11 @@ public class KidsScript : MonoBehaviour
     //------------------------------------------------------------ Speed
     if(Input.GetKey(KeyCode.LeftShift))
     {
-      if(speed <= 2){
+      if(speed <= 4){
         speed += 0.1f;
       }
-      else if(speed >= 2){
-        speed = 2;
+      else if(speed >= 4){
+        speed = 4;
       }
     }
     else {
