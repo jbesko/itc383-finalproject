@@ -511,7 +511,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 19.990108, y: -8.162602}
+  m_AnchoredPosition: {x: 19.990108, y: -8.162601}
   m_SizeDelta: {x: 914.6726, y: 448.3327}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &463933997
@@ -619,16 +619,16 @@ MonoBehaviour:
 '
     - 'Why your grandma you ask... Well you see thats the bad news Billy. Your grandma
       put poison in that oatmeal raisin cookie you gobled up. '
-    - 'So, if you see some werid shit... Its your grandma''s secret "love" she mixed
-      into those cookies. The good news is that you have me to help you along the
-      way! '
+    - 'So, if you see some werid shit... It''s your grandma''s secret "love" she
+      mixed into those cookies. The good news is that you have me to help you along
+      the way! '
     - '*Each level consists of an "Open Tips Menu" tab in the bottom right corner
       of the screen. Jimbo will pop up with some helpful tips pertaining to the level*'
     - "Here'e my first tip for you Billy:\nW Key - Move Up\t\tD Key - Move Right
       \nA Key - Move Left \tHold Shift - Run"
     - 'Oh yeah! Looks like grandma locked every door on you. In order to escape each
       room, you will need to find the key. '
-    - "I'm fucking exhausted from all this rambling. I\u2019m going to take a snooze
+    - "I'm fucking exhausted from all this rambbling. I\u2019m going to take a snooze
       in my can. Feel free to give me a holler when you need some help. Good luck
       Billy!"
 --- !u!114 &496529145
@@ -1076,7 +1076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1096,8 +1096,8 @@ Canvas:
   m_GameObject: {fileID: 1075169208}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 7911648}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1664,7 +1664,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -18.249956, y: 22.457413}
+  m_AnchoredPosition: {x: -18.249958, y: 22.457413}
   m_SizeDelta: {x: 455.4112, y: 86.10339}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2009147386
