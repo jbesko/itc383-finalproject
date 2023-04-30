@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Boss Level.unity
     guid: 7172d2163a4ca9841896a6f0b1088701
   - enabled: 1
+    path: Assets/Scenes/LostToBoss.unity
+    guid: 2c9bd02255834364ba63c49695b74975
+  - enabled: 1
     path: Assets/Scenes/Credits-HighScore.unity
     guid: d4cf23be2f603894c8cb89030e5c6549
   m_configObjects: {}
